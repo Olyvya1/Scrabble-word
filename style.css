@@ -26,10 +26,9 @@ body{
     padding: 18px 25px;
     border-bottom: 1px solid #ccc;
 }
- .container{
+ .container .content{
     margin: 25px 20px 35px;
-    padding: 10px 15px;
-    width: 450px;
+    
  }
  .content .word{
     font-size: 33px;
@@ -53,8 +52,8 @@ body{
     width: 100%;
     height: 60px;
     outline: none;
-    font-size: 20px;
-    padding: 0px 0.1%;
+    font-size: 18px;
+    padding: 0px 16px;
     border-radius: 5px;
     border: 1px solid #aaa;
 }
@@ -75,7 +74,17 @@ body{
 }
 .buttons .refresh-word{
     background: grey;
+    cursor: pointer;
+}
+.buttons .refresh-word:hover{
+    transform: scale(1.05);
+    
 }
 .buttons .check-word{
     background: royalblue;
+    cursor: pointer;
+}
+.buttons .check-word:hover{
+    transform: scale(1.05);
+
 }
